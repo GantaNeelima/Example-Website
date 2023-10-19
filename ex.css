@@ -1,0 +1,84 @@
+body{
+    background-image: url("https://i.stack.imgur.com/jGlzr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav ul{
+    padding: 0px;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+nav ul li a{
+    border: 1px solid #e6eaeab5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #543909;
+    color: white;
+}
+nav ul li a:hover{
+    background-color:#f1ede8 ;
+    color: black;
+
+}
+.one{
+    height: 30vh;
+    width: 100%;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.two{
+    height: 20vh;
+    width: 100%;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.containerOne{
+    border:1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    color: rgb(24, 22, 22);
+}
+.three{
+    height: 20vh;
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#learn{
+    margin-top: 5px;
+    cursor: pointer;
+    background-color:  #543909;
+    padding: 7px 15px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: auto;
+}
+#learn:hover{
+    color: black;
+    background-color: #f5f3e9;
+}
